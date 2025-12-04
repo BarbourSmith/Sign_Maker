@@ -12,8 +12,7 @@
     },
     {
       "name": "Scale",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -39,7 +38,7 @@
     {
       "atomType": "Text",
       "x": 0.08854589764419171,
-      "y": 0.8941504178272981,
+      "y": 0.9136490250696379,
       "uniqueID": "id-75",
       "ioValues": [
         {
@@ -52,13 +51,13 @@
           "currentEquation": "Lorem Ipsum"
         }
       ],
-      "fontFamily": "ROBOTO",
-      "selectedFontIndex": 1
+      "fontFamily": "MONSERRAT",
+      "selectedFontIndex": 4
     },
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.42618384401114207,
+      "y": 0.15384615384615385,
       "uniqueID": "id-79",
       "name": "Text",
       "type": "string"
@@ -71,10 +70,110 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
         }
       ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4046303818034118,
+      "y": 0.6685236768802229,
+      "uniqueID": "id-138",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 5
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.5345247766043867,
+      "y": 0.5793871866295265,
+      "uniqueID": "id-144"
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.619821283509342,
+      "y": 0.1977715877437326,
+      "uniqueID": "id-229",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Sign_Maker",
+          "currentEquation": "Sign_Maker"
+        }
+      ],
+      "partName": "Sign_Maker",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7400487408610886,
+      "y": 0.1392757660167131,
+      "uniqueID": "id-237",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 200
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8269699431356621,
+      "y": 0.3342618384401114,
+      "uniqueID": "id-243",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
+      "uniqueID": "id-248",
+      "name": "Scale",
+      "type": "number"
     },
     {
       "atomType": "GitHubMolecule",
@@ -296,33 +395,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Move",
-      "x": 0.4046303818034118,
-      "y": 0.6685236768802229,
-      "uniqueID": "id-138",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 5,
-          "currentEquation": "5"
-        }
-      ]
-    },
-    {
-      "atomType": "Difference",
-      "x": 0.5345247766043867,
-      "y": 0.5793871866295265,
-      "uniqueID": "id-144"
-    },
-    {
       "atomType": "GitHubMolecule",
       "x": 0.2737611697806661,
       "y": 0.33147632311977715,
@@ -339,8 +411,7 @@
         },
         {
           "name": "Radius",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ],
       "topLevel": false,
@@ -852,82 +923,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Gcode",
-      "x": 0.619821283509342,
-      "y": 0.1977715877437326,
-      "uniqueID": "id-229",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 6.35
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Sign_Maker",
-          "currentEquation": "Sign_Maker"
-        }
-      ],
-      "partName": "Sign_Maker",
-      "sortDirection": "Left"
-    },
-    {
-      "atomType": "Move",
-      "x": 0.7400487408610886,
-      "y": 0.1392757660167131,
-      "uniqueID": "id-237",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 200,
-          "currentEquation": "200"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.8269699431356621,
-      "y": 0.3342618384401114,
-      "uniqueID": "id-243",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.25069637883008355,
-      "uniqueID": "id-248",
-      "name": "Scale",
-      "type": "number"
     }
   ],
   "allConnectors": [
@@ -952,16 +947,6 @@
       "ap2ID": "id-118"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-95",
-      "ap2ID": "id-82"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-118",
-      "ap2ID": "id-138"
-    },
-    {
       "ap2Name": "geometry2",
       "ap1ID": "id-138",
       "ap2ID": "id-144"
@@ -975,11 +960,6 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-144",
       "ap2ID": "id-243"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-169",
-      "ap2ID": "id-53"
     },
     {
       "ap2Name": "geometry",
@@ -1000,6 +980,21 @@
       "ap2Name": "Scale Factor",
       "ap1ID": "id-248",
       "ap2ID": "id-95"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-95",
+      "ap2ID": "id-82"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-118",
+      "ap2ID": "id-138"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-169",
+      "ap2ID": "id-53"
     }
   ],
   "unitsKey": "MM",
