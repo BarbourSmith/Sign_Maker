@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "Text",
-      "ioValue": "Hello World",
-      "currentEquation": "Hello World"
+      "ioValue": "WN 7394 HY",
+      "currentEquation": "WN 7394 HY"
     },
     {
       "name": "Scale",
@@ -62,7 +62,7 @@
         },
         {
           "name": "Text",
-          "ioValue": "Hello World",
+          "ioValue": "WN 7394 HY",
           "currentEquation": "Lorem Ipsum"
         }
       ],
@@ -229,7 +229,7 @@
       "ioValues": [
         {
           "name": "W",
-          "ioValue": 487.44140644999993
+          "ioValue": 449.208984575
         }
       ],
       "currentEquation": "W+50"
@@ -462,11 +462,11 @@
       "ioValues": [
         {
           "name": "Width",
-          "ioValue": 537.4414064499999
+          "ioValue": 499.208984575
         },
         {
           "name": "Height",
-          "ioValue": 112.18261738750002
+          "ioValue": 109.06250020000002
         },
         {
           "name": "Radius",
@@ -540,7 +540,7 @@
           "ioValues": [
             {
               "name": "H",
-              "ioValue": 112.18261738750002
+              "ioValue": 109.06250020000002
             },
             {
               "name": "R",
@@ -557,11 +557,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 238.72070322499997
+              "ioValue": 219.6044922875
             },
             {
               "name": "yDist",
-              "ioValue": 26.09130869375001
+              "ioValue": 24.53125010000001
             },
             {
               "name": "zDist",
@@ -594,7 +594,7 @@
           "ioValues": [
             {
               "name": "W",
-              "ioValue": 537.4414064499999
+              "ioValue": 499.208984575
             },
             {
               "name": "R",
@@ -612,7 +612,7 @@
           "ioValues": [
             {
               "name": "H",
-              "ioValue": 112.18261738750002
+              "ioValue": 109.06250020000002
             },
             {
               "name": "R",
@@ -629,11 +629,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 238.72070322499997
+              "ioValue": 219.6044922875
             },
             {
               "name": "yDist",
-              "ioValue": -26.09130869375001
+              "ioValue": -24.53125010000001
             },
             {
               "name": "zDist",
@@ -649,11 +649,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -238.72070322499997
+              "ioValue": -219.6044922875
             },
             {
               "name": "yDist",
-              "ioValue": 26.09130869375001
+              "ioValue": 24.53125010000001
             },
             {
               "name": "zDist",
@@ -669,11 +669,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -238.72070322499997
+              "ioValue": -219.6044922875
             },
             {
               "name": "yDist",
-              "ioValue": -26.09130869375001
+              "ioValue": -24.53125010000001
             },
             {
               "name": "zDist",
@@ -690,7 +690,7 @@
           "ioValues": [
             {
               "name": "W",
-              "ioValue": 537.4414064499999
+              "ioValue": 499.208984575
             },
             {
               "name": "R",
@@ -709,7 +709,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-30--238.72070322499997--26.09130869375001-0",
+                "geometry": "move-circle-30--219.6044922875--24.53125010000001-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -736,7 +736,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-30--238.72070322499997-26.09130869375001-0",
+                "geometry": "move-circle-30--219.6044922875-24.53125010000001-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -763,7 +763,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-30-238.72070322499997--26.09130869375001-0",
+                "geometry": "move-circle-30-219.6044922875--24.53125010000001-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -790,7 +790,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-30-238.72070322499997-26.09130869375001-0",
+                "geometry": "move-circle-30-219.6044922875-24.53125010000001-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1126,7 +1126,7 @@
       "ioValues": [
         {
           "name": "Y",
-          "ioValue": 62.18261738750001
+          "ioValue": 59.06250020000001
         }
       ],
       "currentEquation": "Y+50"
