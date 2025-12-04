@@ -15,12 +15,16 @@
       "ioValue": 9
     },
     {
-      "name": "Wood_Thickness",
+      "name": "Wood_Thickness_(mm)",
       "ioValue": 20
     },
     {
       "name": "Number_of_Passes",
       "ioValue": 1
+    },
+    {
+      "name": "Router_Bit_Size_(mm)",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -45,8 +49,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.13566206336311942,
-      "y": 0.8857938718662952,
+      "x": 0.08935824532900082,
+      "y": 0.8662952646239555,
       "uniqueID": "id-75",
       "ioValues": [
         {
@@ -59,21 +63,21 @@
           "currentEquation": "Lorem Ipsum"
         }
       ],
-      "fontFamily": "MONSERRAT",
-      "selectedFontIndex": 4
+      "fontFamily": "INCONSOLATA",
+      "selectedFontIndex": 7
     },
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "y": 0.7381615598885795,
       "uniqueID": "id-79",
       "name": "Text",
       "type": "string"
     },
     {
       "atomType": "Extrude",
-      "x": 0.26726238830219334,
-      "y": 0.8774373259052926,
+      "x": 0.1827782290820471,
+      "y": 0.9136490250696379,
       "uniqueID": "id-82",
       "ioValues": [
         {
@@ -84,8 +88,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.39642567018684,
-      "y": 0.8857938718662952,
+      "x": 0.32981316003249395,
+      "y": 0.83008356545961,
       "uniqueID": "id-138",
       "ioValues": [
         {
@@ -104,8 +108,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.652315190901706,
-      "y": 0.807799442896936,
+      "x": 0.5150284321689683,
+      "y": 0.935933147632312,
       "uniqueID": "id-144"
     },
     {
@@ -178,7 +182,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.24615384615384617,
+      "y": 0.5793871866295265,
       "uniqueID": "id-248",
       "name": "Scale",
       "type": "number"
@@ -186,9 +190,9 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.3384615384615385,
+      "y": 0.42618384401114207,
       "uniqueID": "id-374",
-      "name": "Wood_Thickness",
+      "name": "Wood_Thickness_(mm)",
       "type": "number"
     },
     {
@@ -208,10 +212,24 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.4307692307692308,
+      "y": 0.22841225626740946,
       "uniqueID": "id-382",
       "name": "Number_of_Passes",
       "type": "number"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4126726238830219,
+      "y": 0.44568245125348194,
+      "uniqueID": "id-531",
+      "name": "W+50",
+      "ioValues": [
+        {
+          "name": "W",
+          "ioValue": 487.44140644999993
+        }
+      ],
+      "currentEquation": "W+50"
     },
     {
       "atomType": "GitHubMolecule",
@@ -309,8 +327,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.30463038180341184,
-      "y": 0.6685236768802229,
+      "x": 0.2493907392363932,
+      "y": 0.7103064066852367,
       "uniqueID": "id-118",
       "name": "Center_XY",
       "topLevel": false,
@@ -441,11 +459,11 @@
       "ioValues": [
         {
           "name": "Width",
-          "ioValue": 590.6300002000002
+          "ioValue": 537.4414064499999
         },
         {
           "name": "Height",
-          "ioValue": 100
+          "ioValue": 112.18261738750002
         },
         {
           "name": "Radius",
@@ -519,7 +537,7 @@
           "ioValues": [
             {
               "name": "H",
-              "ioValue": 100
+              "ioValue": 112.18261738750002
             },
             {
               "name": "R",
@@ -536,11 +554,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 265.3150001000001
+              "ioValue": 238.72070322499997
             },
             {
               "name": "yDist",
-              "ioValue": 20
+              "ioValue": 26.09130869375001
             },
             {
               "name": "zDist",
@@ -573,7 +591,7 @@
           "ioValues": [
             {
               "name": "W",
-              "ioValue": 590.6300002000002
+              "ioValue": 537.4414064499999
             },
             {
               "name": "R",
@@ -591,7 +609,7 @@
           "ioValues": [
             {
               "name": "H",
-              "ioValue": 100
+              "ioValue": 112.18261738750002
             },
             {
               "name": "R",
@@ -608,11 +626,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 265.3150001000001
+              "ioValue": 238.72070322499997
             },
             {
               "name": "yDist",
-              "ioValue": -20
+              "ioValue": -26.09130869375001
             },
             {
               "name": "zDist",
@@ -628,11 +646,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -265.3150001000001
+              "ioValue": -238.72070322499997
             },
             {
               "name": "yDist",
-              "ioValue": 20
+              "ioValue": 26.09130869375001
             },
             {
               "name": "zDist",
@@ -648,11 +666,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -265.3150001000001
+              "ioValue": -238.72070322499997
             },
             {
               "name": "yDist",
-              "ioValue": -20
+              "ioValue": -26.09130869375001
             },
             {
               "name": "zDist",
@@ -669,7 +687,7 @@
           "ioValues": [
             {
               "name": "W",
-              "ioValue": 590.6300002000002
+              "ioValue": 537.4414064499999
             },
             {
               "name": "R",
@@ -688,7 +706,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-30--265.3150001000001--20-0",
+                "geometry": "move-circle-30--238.72070322499997--26.09130869375001-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -715,7 +733,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-30--265.3150001000001-20-0",
+                "geometry": "move-circle-30--238.72070322499997-26.09130869375001-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -742,7 +760,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-30-265.3150001000001--20-0",
+                "geometry": "move-circle-30-238.72070322499997--26.09130869375001-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -769,7 +787,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-30-265.3150001000001-20-0",
+                "geometry": "move-circle-30-238.72070322499997-26.09130869375001-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -964,8 +982,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.4419171405361495,
-      "y": 0.6935933147632313,
+      "x": 0.40536149471974003,
+      "y": 0.6908077994428969,
       "uniqueID": "id-522",
       "name": "Width",
       "topLevel": false,
@@ -1030,18 +1048,93 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Equation",
-      "x": 0.46872461413484967,
-      "y": 0.5041782729805014,
-      "uniqueID": "id-531",
-      "name": "W+50",
-      "ioValues": [
+      "atomType": "GitHubMolecule",
+      "x": 0.44029244516653127,
+      "y": 0.8050139275766017,
+      "uniqueID": "id-681",
+      "name": "Y_Dimension",
+      "topLevel": false,
+      "allAtoms": [
         {
-          "name": "W",
-          "ioValue": 540.6300002000002
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-678"
+        },
+        {
+          "atomType": "Code",
+          "x": 0.37367993501218516,
+          "y": 0.3983286908077995,
+          "uniqueID": "id-679",
+          "codeVersion": 1,
+          "code": "/**\n Inputs for this Code Atom:\n - Takes a single geometry input \"A\" and returns its width (X size) as measured by the bounding box.\n*/\nInputs = [\n  { inputName: \"A\", type: \"geometry\", defaultValue: null }\n]\n\nif (!A) {\n  // No input provided — return null to indicate absence.\n  return null\n}\n\n// Get bounding box of A. boundsA.min and boundsA.max are arrays [x, y, z]\nlet boundsA = await GetBounds(A);\nlet min = boundsA.min;\nlet max = boundsA.max;\n\n// Compute height along Y (maxY - minY)\nlet Y = max[1] - min[1];\n\n// Ensure a non-negative numeric result\nY = typeof Y === 'number' && isFinite(Y) ? Math.max(0, Y) : null;\n\nreturn Y;"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-680",
+          "name": "Geometry",
+          "type": "geometry"
         }
       ],
-      "currentEquation": "W+50"
+      "allConnectors": [
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-679",
+          "ap2ID": "id-678"
+        },
+        {
+          "ap2Name": "A",
+          "ap1ID": "id-680",
+          "ap2ID": "id-679"
+        }
+      ],
+      "parentRepo": {
+        "privateRepo": false,
+        "repoName": "Y_Dimension",
+        "dateCreated": "2025-12-04T21:59:58Z",
+        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Y_Dimension/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "id-400",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Y_Dimension",
+        "topics": [],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739589",
+        "ranking": 0,
+        "searchField": "y_dimension barboursmith returns the y dimension of the input shape's bounding box ",
+        "owner": "BarbourSmith",
+        "description": "Returns the Y dimension of the input shape's bounding box",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Y_Dimension/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Y_Dimension/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4744110479285134,
+      "y": 0.649025069637883,
+      "uniqueID": "id-690",
+      "name": "Y+50",
+      "ioValues": [
+        {
+          "name": "Y",
+          "ioValue": 62.18261738750001
+        }
+      ],
+      "currentEquation": "Y+50"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.33147632311977715,
+      "uniqueID": "id-695",
+      "name": "Router_Bit_Size_(mm)",
+      "type": "number"
     }
   ],
   "allConnectors": [
@@ -1074,6 +1167,11 @@
       "ap2Name": "Shape",
       "ap1ID": "id-138",
       "ap2ID": "id-522"
+    },
+    {
+      "ap2Name": "Geometry",
+      "ap1ID": "id-138",
+      "ap2ID": "id-681"
     },
     {
       "ap2Name": "geometry",
@@ -1126,6 +1224,11 @@
       "ap2ID": "id-229"
     },
     {
+      "ap2Name": "Width",
+      "ap1ID": "id-531",
+      "ap2ID": "id-169"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-95",
       "ap2ID": "id-82"
@@ -1146,8 +1249,13 @@
       "ap2ID": "id-531"
     },
     {
-      "ap2Name": "Width",
-      "ap1ID": "id-531",
+      "ap2Name": "Y",
+      "ap1ID": "id-681",
+      "ap2ID": "id-690"
+    },
+    {
+      "ap2Name": "Height",
+      "ap1ID": "id-690",
       "ap2ID": "id-169"
     }
   ],
