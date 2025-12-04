@@ -15,16 +15,19 @@
       "ioValue": 9
     },
     {
-      "name": "Wood_Thickness_(mm)",
-      "ioValue": 20
+      "name": "Wood_Thickness",
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "Number_of_Passes",
-      "ioValue": 1
+      "ioValue": 4,
+      "currentEquation": "4"
     },
     {
-      "name": "Router_Bit_Size_(mm)",
-      "ioValue": 10
+      "name": "Router_Bit_Size",
+      "ioValue": 3.125,
+      "currentEquation": "3.125"
     }
   ],
   "topLevel": true,
@@ -37,13 +40,13 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.553208773354996,
-      "y": 0.3565459610027855,
+      "x": 0.5775792038992689,
+      "y": 0.28690807799442897,
       "uniqueID": "id-53",
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 20
+          "ioValue": 10
         }
       ]
     },
@@ -102,29 +105,29 @@
         },
         {
           "name": "zDist",
-          "ioValue": 15
+          "ioValue": 5
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.5150284321689683,
+      "x": 0.5840779853777417,
       "y": 0.935933147632312,
       "uniqueID": "id-144"
     },
     {
       "atomType": "Gcode",
-      "x": 0.6506904955320877,
-      "y": 0.20055710306406688,
+      "x": 0.7587327376116978,
+      "y": 0.17548746518105848,
       "uniqueID": "id-229",
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 6.35
+          "ioValue": 3.125
         },
         {
           "name": "Passes",
-          "ioValue": 1
+          "ioValue": 4
         },
         {
           "name": "Speed",
@@ -190,9 +193,9 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.42618384401114207,
+      "y": 0.4428969359331476,
       "uniqueID": "id-374",
-      "name": "Wood_Thickness_(mm)",
+      "name": "Wood_Thickness",
       "type": "number"
     },
     {
@@ -204,7 +207,7 @@
       "ioValues": [
         {
           "name": "T",
-          "ioValue": 20
+          "ioValue": 10
         }
       ],
       "currentEquation": "T-5"
@@ -452,8 +455,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.554021121039805,
-      "y": 0.6629526462395543,
+      "x": 0.4898456539398862,
+      "y": 0.48467966573816157,
       "uniqueID": "id-169",
       "name": "Rectangle-Rounded",
       "ioValues": [
@@ -1133,7 +1136,7 @@
       "x": 0.025384615384615384,
       "y": 0.33147632311977715,
       "uniqueID": "id-695",
-      "name": "Router_Bit_Size_(mm)",
+      "name": "Router_Bit_Size",
       "type": "number"
     }
   ],
@@ -1257,6 +1260,11 @@
       "ap2Name": "Height",
       "ap1ID": "id-690",
       "ap2ID": "id-169"
+    },
+    {
+      "ap2Name": "Tool Size",
+      "ap1ID": "id-695",
+      "ap2ID": "id-229"
     }
   ],
   "unitsKey": "MM",
