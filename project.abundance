@@ -12,7 +12,18 @@
     },
     {
       "name": "Scale",
-      "ioValue": 10
+      "ioValue": 9,
+      "currentEquation": "9"
+    },
+    {
+      "name": "Wood_Thickness",
+      "ioValue": 20,
+      "currentEquation": "20"
+    },
+    {
+      "name": "Number_of_Passes",
+      "ioValue": 1,
+      "currentEquation": "1"
     }
   ],
   "topLevel": true,
@@ -25,20 +36,20 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.45572705117790413,
-      "y": 0.20612813370473537,
+      "x": 0.35905767668562144,
+      "y": 0.415041782729805,
       "uniqueID": "id-53",
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 20
         }
       ]
     },
     {
       "atomType": "Text",
-      "x": 0.08854589764419171,
-      "y": 0.9136490250696379,
+      "x": 0.13566206336311942,
+      "y": 0.8857938718662952,
       "uniqueID": "id-75",
       "ioValues": [
         {
@@ -57,7 +68,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "y": 0.8635097493036212,
       "uniqueID": "id-79",
       "name": "Text",
       "type": "string"
@@ -76,8 +87,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4046303818034118,
-      "y": 0.6685236768802229,
+      "x": 0.39642567018684,
+      "y": 0.8857938718662952,
       "uniqueID": "id-138",
       "ioValues": [
         {
@@ -90,20 +101,20 @@
         },
         {
           "name": "zDist",
-          "ioValue": 5
+          "ioValue": 15
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.5345247766043867,
-      "y": 0.5793871866295265,
+      "x": 0.5434606011372868,
+      "y": 0.8245125348189415,
       "uniqueID": "id-144"
     },
     {
       "atomType": "Gcode",
-      "x": 0.619821283509342,
-      "y": 0.1977715877437326,
+      "x": 0.6506904955320877,
+      "y": 0.20055710306406688,
       "uniqueID": "id-229",
       "ioValues": [
         {
@@ -112,7 +123,8 @@
         },
         {
           "name": "Passes",
-          "ioValue": 1
+          "ioValue": 1,
+          "currentEquation": "3"
         },
         {
           "name": "Speed",
@@ -133,8 +145,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7400487408610886,
-      "y": 0.1392757660167131,
+      "x": 0.7904142973192526,
+      "y": 0.49860724233983283,
       "uniqueID": "id-237",
       "ioValues": [
         {
@@ -153,8 +165,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.8269699431356621,
-      "y": 0.3342618384401114,
+      "x": 0.8627132412672623,
+      "y": 0.7938718662952646,
       "uniqueID": "id-243",
       "ioValues": [
         {
@@ -170,21 +182,21 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.24615384615384617,
+      "y": 0.6685236768802229,
       "uniqueID": "id-248",
       "name": "Scale",
       "type": "number"
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.15190901705930138,
-      "y": 0.6462395543175488,
+      "x": 0.16003249390739235,
+      "y": 0.6406685236768802,
       "uniqueID": "id-95",
       "name": "Scale",
       "ioValues": [
         {
           "name": "Scale Factor",
-          "ioValue": 10
+          "ioValue": 9
         }
       ],
       "topLevel": false,
@@ -219,7 +231,7 @@
           "ioValues": [
             {
               "name": "scaleFactor",
-              "ioValue": 10
+              "ioValue": 9
             }
           ],
           "codeVersion": 1,
@@ -396,8 +408,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.2737611697806661,
-      "y": 0.33147632311977715,
+      "x": 0.22014622258326563,
+      "y": 0.32869080779944293,
       "uniqueID": "id-169",
       "name": "Rectangle-Rounded",
       "ioValues": [
@@ -923,6 +935,36 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.5153203342618384,
+      "uniqueID": "id-374",
+      "name": "Wood_Thickness",
+      "type": "number"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.3476848090982941,
+      "y": 0.5654596100278552,
+      "uniqueID": "id-377",
+      "name": "T-5",
+      "ioValues": [
+        {
+          "name": "T",
+          "ioValue": 20
+        }
+      ],
+      "currentEquation": "T-5"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.17548746518105848,
+      "uniqueID": "id-382",
+      "name": "Number_of_Passes",
+      "type": "number"
     }
   ],
   "allConnectors": [
@@ -995,6 +1037,26 @@
       "ap2Name": "geometry",
       "ap1ID": "id-169",
       "ap2ID": "id-53"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-374",
+      "ap2ID": "id-53"
+    },
+    {
+      "ap2Name": "T",
+      "ap1ID": "id-374",
+      "ap2ID": "id-377"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-377",
+      "ap2ID": "id-138"
+    },
+    {
+      "ap2Name": "Passes",
+      "ap1ID": "id-382",
+      "ap2ID": "id-229"
     }
   ],
   "unitsKey": "MM",
