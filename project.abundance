@@ -16,18 +16,15 @@
     },
     {
       "name": "Wood_Thickness",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     },
     {
       "name": "Number_of_Passes",
-      "ioValue": 4,
-      "currentEquation": "4"
+      "ioValue": 4
     },
     {
       "name": "Router_Bit_Size",
-      "ioValue": 3.125,
-      "currentEquation": "3.125"
+      "ioValue": 3.125
     }
   ],
   "topLevel": true,
@@ -72,7 +69,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.7381615598885795,
+      "y": 0.15384615384615385,
       "uniqueID": "id-79",
       "name": "Text",
       "type": "string"
@@ -185,7 +182,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.5793871866295265,
+      "y": 0.24615384615384617,
       "uniqueID": "id-248",
       "name": "Scale",
       "type": "number"
@@ -193,7 +190,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.4428969359331476,
+      "y": 0.3384615384615385,
       "uniqueID": "id-374",
       "name": "Wood_Thickness",
       "type": "number"
@@ -215,7 +212,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.22841225626740946,
+      "y": 0.4307692307692308,
       "uniqueID": "id-382",
       "name": "Number_of_Passes",
       "type": "number"
@@ -233,6 +230,28 @@
         }
       ],
       "currentEquation": "W+50"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4744110479285134,
+      "y": 0.649025069637883,
+      "uniqueID": "id-690",
+      "name": "Y+50",
+      "ioValues": [
+        {
+          "name": "Y",
+          "ioValue": 59.06250020000001
+        }
+      ],
+      "currentEquation": "Y+50"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.5230769230769231,
+      "uniqueID": "id-695",
+      "name": "Router_Bit_Size",
+      "type": "number"
     },
     {
       "atomType": "GitHubMolecule",
@@ -1116,28 +1135,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.4744110479285134,
-      "y": 0.649025069637883,
-      "uniqueID": "id-690",
-      "name": "Y+50",
-      "ioValues": [
-        {
-          "name": "Y",
-          "ioValue": 59.06250020000001
-        }
-      ],
-      "currentEquation": "Y+50"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.33147632311977715,
-      "uniqueID": "id-695",
-      "name": "Router_Bit_Size",
-      "type": "number"
     }
   ],
   "allConnectors": [
@@ -1232,6 +1229,16 @@
       "ap2ID": "id-169"
     },
     {
+      "ap2Name": "Height",
+      "ap1ID": "id-690",
+      "ap2ID": "id-169"
+    },
+    {
+      "ap2Name": "Tool Size",
+      "ap1ID": "id-695",
+      "ap2ID": "id-229"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-95",
       "ap2ID": "id-82"
@@ -1255,16 +1262,6 @@
       "ap2Name": "Y",
       "ap1ID": "id-681",
       "ap2ID": "id-690"
-    },
-    {
-      "ap2Name": "Height",
-      "ap1ID": "id-690",
-      "ap2ID": "id-169"
-    },
-    {
-      "ap2Name": "Tool Size",
-      "ap1ID": "id-695",
-      "ap2ID": "id-229"
     }
   ],
   "unitsKey": "MM",
