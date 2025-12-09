@@ -136,8 +136,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Sign_Maker",
-          "currentEquation": "Sign_Maker"
+          "ioValue": "Sign_Maker Test",
+          "currentEquation": "Sign_Maker Test"
         }
       ],
       "partName": "Sign_Maker",
